@@ -5,79 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <title>ShirtShop</title>
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="" alt="logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="/">Hem</a></li>
-                <li><a href="#products">Produkter</a></li>
-                <li><a href="#contact">Kontakta oss</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Webbplats</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Hem</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Produkter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <main>
-        <section>
-            <h1>Välkommen till ShirtShop!</h1>
-        </section>
 
-        <section id="products">
-            <h2>Produkter</h2>
-            <div class="products">
-                <div class="product">
-                    <img src="img/tröja-svart.png" alt="Tröja" width="300">
-                    <h3>Tröja</h3>
-                    <button class="button">Köp</button>
-                </div>
-                <div class="product">
-                    <img src=" img/tröja-svart.png" alt="" width="300">
-                    <h3>Tröja</h3>
-                    <button class="button">Köp</button>
-                </div>
-                <div class="product">
-                    <img src="img/tröja-svart.png" alt="" width="300">
-                    <h3>Tröja</h3>
-                    <button class="button">Köp</button>
-                </div>
-                <div class="product">
-                    <img src="img/tröja-svart.png" alt="" width="300">
-                    <h3>Tröja</h3>
-                    <button class="button">Köp</button>
-                </div>
-            </div>
-        </section>
 
-        <section id="contact">
-            <h2>Kontakta oss</h2>
-
-            <form action="" method="post">
-                <label for="name">Namn</label>
-                <input type="text" name="name" id="name">
-
-                <label for="phone">Telefon</label>
-                <input type="tel" name="phone" id="phone">
-
-                <label for="message">Meddelande</label>
-                <textarea name="message" id="message" rows="4"></textarea>
-
-                <button class="button">Skicka</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="/">Hem</a></li>
-                <li><a href="#products">Produkter</a></li>
-                <li><a href="#contact">Kontakta oss</a></li>
-            </ul>
-        </nav>
-    </footer>
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
