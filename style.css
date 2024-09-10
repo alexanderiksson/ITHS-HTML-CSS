@@ -1,12 +1,12 @@
 :root{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     overflow-x: hidden;
 
+    --accent: #2063cf;
     --background: #fff;
     --text: #000;
     --font: Arial, sans-serif;
+
 }
 
 body{
@@ -15,12 +15,79 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 main{
     flex: 1;
+    padding: 1rem 5rem;
 }
 
 header{
     border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1rem 5rem;
+}
+
+footer{
+    border-top: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    display: inline;
+    margin-left: 2rem;
+}
+
+li a{
+    color: var(--text);
+    text-decoration: none;
+}
+
+#products{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.product{
+    border: 1px solid black;
+    padding: 3rem;
+}
+
+.button{
+    background-color: var(--accent);
+    color: #fff;
+    padding: 0.5rem;
+    border: 2px solid var(--accent);
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: transparent;
+    color: var(--text);
+}
+
+form{
+
+}
+
+input, textarea{
+    display: block;
+    margin-bottom: 1rem;
+    padding: 5px;
+    width: 500px;
 }
