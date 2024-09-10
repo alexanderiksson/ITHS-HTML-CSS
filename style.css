@@ -28,7 +28,6 @@ main{
 }
 
 header{
-    border-bottom: 1px solid #000;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -36,7 +35,6 @@ header{
 }
 
 footer{
-    border-top: 1px solid #000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,6 +70,9 @@ li a{
 .product{
     padding: 3rem;
     background-color: var(--background);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .button{
@@ -95,4 +96,6 @@ input, textarea{
     margin-bottom: 1rem;
     padding: 5px;
     width: 500px;
+    border-radius: 5px;
+    border: 1px solid #00000064;
 }
