@@ -96,6 +96,10 @@ section{
     border-radius: 10px;
 }
 
+.product-box h3{
+    font-size: 1.5rem;
+}
+
 .product-box img{
     margin-bottom: 1rem;
 }
@@ -153,6 +157,11 @@ footer p{
     display: block;
     padding: 5px;
     border-radius: 5px;
+}
+
+.product-info h2{
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 
