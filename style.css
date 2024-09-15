@@ -1,6 +1,4 @@
 :root{
-    box-sizing: border-box;
-    overflow-x: hidden;
     font-size: 18px;
 
     --accent: #2063cf;
@@ -16,6 +14,8 @@
 body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
     font-family: var(--font);
     background-color: var(--background);
     color: var(--text);
@@ -74,7 +74,14 @@ section{
 
 /* Section Hero */
 #hero{
-    background-color: #c4c4c4;
+    background-color: rgba(36, 36, 36, 0.6);
+    color: #fff;
+    background-image: url(img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    padding: 6rem 0;
 }
 
 
