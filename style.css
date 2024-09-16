@@ -74,7 +74,7 @@ section{
 
 /* Section Hero */
 #hero{
-    background-color: rgba(36, 36, 36, 0.6);
+    background-color: rgba(36, 36, 36, 0.75);
     color: #fff;
     background-image: url(img/hero.jpg);
     background-repeat: no-repeat;
