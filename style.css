@@ -43,10 +43,6 @@ header{
     padding: 1rem 0;
 }
 
-header li.nav-item{
-    margin-left: 2rem;
-}
-
 
 section{
     padding: 3rem 0;
@@ -176,6 +172,12 @@ footer p{
 @media screen and (min-width: 500px) {
     #hero{
         background-image: url(img/hero-desktop.jpg);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    header li.nav-item{
+        margin-left: 2rem;
     }
 }
 
