@@ -76,7 +76,7 @@ section{
 #hero{
     background-color: rgba(36, 36, 36, 0.75);
     color: #fff;
-    background-image: url(img/hero.jpg);
+    background-image: url(img/hero-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -172,6 +172,12 @@ footer p{
     font-weight: bold;
 }
 
+
+@media screen and (min-width: 500px) {
+    #hero{
+        background-image: url(img/hero-desktop.jpg);
+    }
+}
 
 @media screen and (min-width: 1500px) {
     .content{
