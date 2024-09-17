@@ -70,7 +70,7 @@ section{
 
 /* Section Hero */
 #hero{
-    background-color: rgba(36, 36, 36, 0.75);
+    background-color: rgba(36, 36, 36, 0.8);
     color: #fff;
     background-image: url("img/hero-mobile.jpg");
     background-repeat: no-repeat;
