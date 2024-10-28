@@ -1,2 +1,2 @@
-# Labb2-HTML
-Labb 2 HTML &amp; CSS
+# ITHS-HTML-CSS
+It-högskolan HTML&CSS Labb 2 
