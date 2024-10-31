@@ -1,2 +1,2 @@
 # ITHS-HTML-CSS
-It-högskolan HTML&CSS Labb 2 
+IT-högskolan HTML&CSS Slutprojekt
